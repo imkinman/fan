@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Document</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/00_basic.css">
+		<link rel="stylesheet" href="css/01_index.css">
+		<link rel="stylesheet" href="css/00_header.css">
+	</head>
+	<body>
+		<!-- 1、header -->
+		<header id="header">
+			<!--1、logo图-->
+			<div class="logo">
+				<a href="01_index.html" target="_blank"></a>
+			</div>
+			<!--2、inav首页导航条-->
+			<div class="inav">
+				<!--1、gather城市分类和导航条-->
+				<div class="gather">
+					<!--1、城市分类-->
+					<div class="classify">城市分类
+						<!--1、厦门店-->
+						<ul class="classify-1">
+						</ul>
+						<!--2、厦门店白框，当点击厦门店时候出现的框-->
+						<ul class="classify-2">
+						</ul>
+					</div>
+					<!--2、导航-->
+					<nav>
+						<ul data-list="navbar"></ul>
+					</nav>	
+				</div>
+			</div>
+		</header>
+		<!-- 2、banner -->
+		<div id="banner">
+			<!-- 1、底部图片改变 -->
+			<ul data-load="bannerImgs" style="transition:all .3s linear;left:0;">
+<!--
+				<li>
+					<a href="">
+						<img src="images/banner1.jpg" alt=""/>
+					</a>
+				</li>
+-->
+			</ul>
+			<!-- 2、底部八个小圆点 -->
+			<ul class="yuandian"  data-load="bannerInds">
+				<!--<li><a href=""></a></li>-->
+			</ul>
+		</div>	
+		<!-- 3、container全国免费咨询热线 -->
+		<div id="hotline">
+			<img src="images/b090723f56.jpg" alt="">
+		</div>
+		<!-- 4、commodity_intro商品简介 -->
+		<div id="commodity_intro">
+			<div class="shop">
+				<!--<a href="">-->
+					<!--<img src="images/pin1.jpg" alt="">-->
+				<!--</a>-->
+				<!--<a href="">-->
+					<!--<img src="images/pin2.jpg" alt="">-->
+				<!--</a>-->
+				<!--<a href="">-->
+					<!--<img src="images/pin3.jpg" alt="">-->
+				<!--</a>-->
+				<!--<a href="">-->
+					<!--<img src="images/pin4.jpg" alt="">-->
+				<!--</a>-->
+				<!--<a href="">-->
+					<!--<img src="images/pin5.jpg" alt="">-->
+				<!--</a>-->
+				<!--<a href="">-->
+					<!--<img src="images/pin6.jpg" alt="">-->
+				<!--</a>-->
+			</div>
+		</div>
+		<!-- 5、欣赏大框 -->
+		<div id="scene">
+		</div>
+		<!-- 6、拍卖联系方式 -->
+		<div id="pai_mai">
+			<div id="pai_mai_zhong">
+				<div class="pai_mai_left">
+					<a href="">
+						<img src="images/sale1.jpg" alt=""/>
+					</a>
+				</div>
+				<div class="pai_mai_right">
+					<a href="">
+						<img src="images/sale2.jpg" alt=""/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- 7、月份 -->
+		<div id="months">
+			<div class="months_zhong">
+				<!-- 7.1、客照欣赏 -->
+				<div class="scene_top">
+					<div class="pull_left">
+						<h3>客照欣赏<small>PHOTOGRAPHY</small></h3>
+					</div>
+				<span class="pull_right">
+					<a href="">更多>></a>
+				</span>
+				</div>
+				<!-- 7.2、月份图片客照欣赏 -->
+				<ul class="photo_show">
+				</ul>
+			</div>
+		</div>
+		<!-- 8、客户评价 -->
+		<!--<div id="client_evaluate">-->
+			<!--<div class="client_evaluate_center">-->
+				<!--&lt;!&ndash; 8.1、客户评价左边 &ndash;&gt;-->
+				<!--<div class="client_left">-->
+					<!--<div class="client_top">-->
+						<!--<div class="client_left1">-->
+							<!--<h4>微博客户端</h4>-->
+						<!--</div>-->
+						<!--<span>-->
+							<!--<a href="">更多>></a>-->
+						<!--</span>-->
+					<!--</div>-->
+					<!--<div class="client_bottom">-->
+						<!--<ul>-->
+							<!--<li>-->
+								<!--<a class="bottom_le" href="">-->
+									<!--<img src="images/client_bottom01.jpg" alt=""/>-->
+								<!--</a>-->
+								<!--<p><a class="bottom_re" href="">摄影师的想法很新颖，有创意，非常喜欢。人生难得一次婚纱照，就应该这样美美的，跟别人的也不一样</a></p>-->
+							<!--</li>-->
+							<!--<li class="client_wai">-->
+								<!--<a class="bottom_le" href="">-->
+									<!--<img src="images/client_bottom02.jpg" alt=""/>-->
+								<!--</a>-->
+								<!--<p><a class="bottom_re" href="">谢谢米兰婚纱摄影，服务非常周到，态度也很好，给我们一次美好的回忆，和你们相处很愉快</a></p>-->
+							<!--</li>-->
+							<!--<li class="client_wai">-->
+								<!--<a class="bottom_le" href="">-->
+									<!--<img src="images/client_bottom03.jpg" alt=""/>-->
+								<!--</a>-->
+								<!--<p><a class="bottom_re" href="">选择米兰真心没错！感谢造型师细心帮我设计独一无二的造型，感谢摄影师耐心专业的拍摄，感谢摄影师助理和造型师助理跑来跑去微我们奔波，照片美美哒，太喜欢了，还多加了一些，期待...</a></p>-->
+							<!--</li>-->
+						<!--</ul>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--&lt;!&ndash; 8.2、客户评价右边 &ndash;&gt;-->
+				<!--<div class="client_right">-->
+					<!--<div class="client_top">-->
+						<!--<div class="client_left1">-->
+							<!--<h4>天猫客户评价</h4>-->
+						<!--</div>-->
+						<!--<span>-->
+							<!--<a href="">更多>></a>-->
+						<!--</span>-->
+					<!--</div>-->
+					<!--<div class="client_bottom">-->
+						<!--<ul>-->
+							<!--<li>-->
+								<!--<a class="bottom_le" href="">-->
+									<!--<img src="images/client_bottom04.jpg" alt=""/>-->
+								<!--</a>-->
+								<!--<p><a class="bottom_re" href="">服装很多，很好，摄影师的技术没得说，掌握的角度也是特别不错的。成品效果很不错，特别是服务太贴心了，非常的有责任心，真的选对了，强烈推荐哦！</a></p>-->
+							<!--</li>-->
+							<!--<li class="client_wai">-->
+								<!--<a class="bottom_le" href="">-->
+									<!--<img src="images/client_bottom05.jpg" alt=""/>-->
+								<!--</a>-->
+								<!--<p><a class="bottom_re" href="">婚纱很漂亮，化妆师技巧很好哦，我都不知道原来我媳妇儿可以这么漂亮，太爽了。感谢你们在厦门热情的接待,这里的服务非常好,每个员工都很亲切,没有后期消费，每个拍摄过程都很满意，...</a></p>-->
+							<!--</li>-->
+							<!--<li class="client_wai">-->
+								<!--<a class="bottom_le" href="">-->
+									<!--<img src="images/client_bottom06.jpg" alt=""/>-->
+								<!--</a>-->
+								<!--<p><a class="bottom_re" href="">很满意这次婚纱的拍照，拍摄技术很好 清晰，婚纱店服务很好 很有耐心，非常满意 拍得很真实清晰自然，有需要的亲们，就放心的来这家婚纱店拍，真的很不错，好评推荐</a></p>-->
+							<!--</li>-->
+						<!--</ul>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+		<!-- 9、图片条 -->
+		<div id="picture_strip ">
+			<div class="picture">
+				<img src="images/picture_strip.jpg" alt=""/>
+			</div>
+		</div>
+		<!-- 10、底部footer -->
+		<div id="footer">
+			<!--中间大框-->
+			<div class="center">
+				<!--1、第一层-->
+				<div class="footer_1">
+					<span>全网“客照版块”百分百</span>客户婚纱照
+					<span> 若非</span>真实客照
+					<span>赔偿一百万</span>
+				</div>
+				<!--2、第二层-->
+				<div class="footer_2">
+					<a href="">厦门站</a>
+					<span>|</span>
+					<a href="">三亚站</a>
+					<span>|</span>
+					<a href="">婺源站</a>
+					<span>|</span>
+					<a href="">仙女湖</a>
+					<span>|</span>
+					<a href="">凤凰湾</a>
+					<span>|</span>
+					<br/>
+					<a href="">南昌</a>
+					<span>|</span>
+					<a href="">上饶</a>
+					<span>|</span>
+					<a href="">新余</a>
+					<span>|</span>
+					<a href="">萍乡</a>
+					<span>|</span>
+					<a href="">上栗</a>
+					<span>|</span>
+					<a href="">吉安</a>
+					<span>|</span>
+					<a href="">永丰</a>
+					<span>|</span>
+					<a href="">兴国</a>
+					<span>|</span>
+					<a href="">宁都</a>
+					<span>|</span>
+					<a href="">修水</a>
+					<span>|</span>
+					<a href="">湘潭</a>
+					<span>|</span>
+					<a href="">易俗河</a>
+					<span>|</span>
+				</div>
+				<!--3、第三层-->
+				<p class="footer_3">
+					"全国免费咨询热线："
+					<font>
+						400-004-6698
+					</font>
+					"(在线时间：每天09:00-23:00)"
+				</p>
+				<!--4、第四层-->
+				<p class="footer_4">
+					<a href="">首页</a>
+					<span>-</span>
+					<a href="">公司简介</a>
+					<span>-</span>
+					<a href="">联系我们</a>
+					<span>-</span>
+					<a href="">客照欣赏</a>
+				</p>
+			</div>
+		</div>
+		<!-- 5、user_say用户评价 -->
+		<!-- 6、footer -->
+	</body>
+	<script src="js/init.js"></script>
+	<script src="js/index.js"></script>
+</html>
